@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sima &mdash; Home</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://cdn.simpleicons.org">
+<link href="https://fonts.googleapis.com/css2?family=Butcherman&family=Caveat:wght@500;600;700&family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="grain">
+
+  <div class="book-cover-stage" id="bookCoverStage">
+    <div class="book-cover" id="bookCover">
+      <div class="cover-photo">
+        <img src="images/sima8.jpg" alt="Simamkele Yawa">
+      </div>
+      <h1 class="cover-name">Simamkele Yawa</h1>
+      <div class="cover-rule"></div>
+      <p class="cover-sub">Software Engineering &middot; Information Systems &middot; AI &middot; Tutoring</p>
+      <button class="cover-btn" id="coverOpenBtn" type="button">Know About Me</button>
+    </div>
+  </div>
+
+<div class="cursor"><div></div></div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <filter id="inkBleed" x="-40%" y="-80%" width="180%" height="260%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.012 0.35" numOctaves="3" seed="7" result="noise"/>
+    <feDisplacementMap in="SourceGraphic" in2="noise" scale="9" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
+</svg>
+
+<nav class="topnav">
+  <span class="brand"><a href="home.html"><span class="ink-splat s1"></span><span class="ink-splat s2"></span><span class="ink-splat s3"></span><span class="ink-drip d1"></span><span class="ink-drip d2"></span><span class="big-s">S</span><span class="rest">ima</span></a></span>
+  <button class="burger" id="burgerBtn" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <div class="nav-links" id="navLinks">
+  <a href="home.html" class="active">Home</a>
+  <a href="about.html">About</a>
+  <a href="skills.html">Skills</a>
+  <a href="projects.html">Projects</a>
+  <a href="education.html">Education</a>
+  <a href="awards.html">Awards</a>
+  <a href="hobbies.html">Hobbies</a>
+  <a href="family.html">Family</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="documents.html">Documents</a>
+  <a href="contact.html">Contact</a>
+  </div>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle light/dark theme">☀</button>
+  <a href="#" class="dl" id="downloadBtn">Download resume</a>
+</nav>
+
+
+<header class="hero wrap">
+  <div class="hero-row">
+
+    <div class="hero-text">
+      <p class="kicker">software engineering &middot; Information Systems &middot; Tutor</p>
+      <div class="flip-name" tabindex="0">
+        <h1>Hi, I'm Sima.</h1>
+      </div>      <p> An Advanced Diploma in ICT in Applications Development student, working toward software engineering, information and data roles.
+        I'm a Database Design and an Information Systems Development tutor in the Software Development discipline at iYunivesithi Walter Sisulu.</p>
+      <a class="hero-btn" href="projects.html"><span>View my Portfolio &rarr;</span></a>
+    </div>
+    
+    <div class="card-container">
+      <div class="float-card c1"><b>Currently</b><span>Tutoring Database Design and Java at Walter Sisulu</span></div>
+      <div class="float-card c2"><b>Studying</b><span>Adv. Diploma, ICT Applications Development</span></div>
+      <div class="float-card c3"><b>Building</b><span>Java, Flutter + Oracle APEX projects</span></div>
+    </div>
+  </div>
+</header>
+
+
+<main class="wrap scroll-story">
+  <section id="s-about">
+    <p class="kicker">about</p>
+    <h2>What do you want to know about me?</h2>
+    <div class="inner-block">
+      <p>I am an Advanced Diploma in ICT in Applications Development student and aspiring Software Engineer, with a growing focus on backend development, information systems, data, and building software that solves real problems. Teaching Java has shaped how I learn just as much as it's helped others learn to code.</p>
+      <div class="about-more" id="aboutMore">
+        <p>My current journey has been strongly shaped by Java. I have developed a solid foundation in <strong>Java and Spring Boot</strong>, and I am continuing to deepen my understanding of backend engineering, databases, APIs, and software architecture.</p>
+        <p>Although backend development is where I feel most at home, I have deliberately explored web and mobile application technologies including <strong>JavaScript, TypeScript, React, Flutter, and Dart</strong>, because I wanted to understand how the entire system comes together, not just what happens inside a server.</p>
+        <p>I want to grow into an engineer who works on reliable software, meaningful information systems, and backend platforms that solve problems beyond the screen, and I'm increasingly drawn to <strong>cloud computing and AI-powered systems</strong> as part of that.</p>
+        <p><em>What could I build if I combine what I know about technology with what I care about as a person? </em> I began to ask myself this question!</p>
+      </div>
+      <a class="section-link open-page" href="about.html">Read more...</a>
+    </div>
+  </section>
+
+  <section id="s-skills">
+    <p class="kicker">core skills</p>
+    <h2>What makes sense from the skills perspective?</h2>
+    <div class="inner-block">
+      <p style="max-width:520px; margin-bottom:18px;">Professional Skills</p>
+
+      <div class="skillbar">
+        <div class="skillbar-head"><span class="skillbar-name">Emotional Intelligence</span><span class="skillbar-pct"></span></div>
+        <div class="skillbar-track"><div class="skillbar-fill" data-width="95"></div></div>
+        <p class="skillbar-desc">Empathy, EQ, Self-Awareness</p>
+      </div>
+  
+      <div class="skillbar">
+        <div class="skillbar-head"><span class="skillbar-name">Communication</span><span class="skillbar-pct"></span></div>
+        <div class="skillbar-track"><div class="skillbar-fill" data-width="90"></div></div>
+        <p class="skillbar-desc">Effective Communication, Active Listening, Public Speaking, Technical Communication</p>
+      </div>
+  
+      <div class="skillbar">
+        <div class="skillbar-head"><span class="skillbar-name">Problem-Solving and Critical Thinking</span><span class="skillbar-pct"></span></div>
+        <div class="skillbar-track"><div class="skillbar-fill" data-width="88"></div></div>
+        <p class="skillbar-desc">Problem-Solving, Critical Thinking, Analytical Thinking, Creativity, Decision-Making</p>
+      </div>
+  
+      <div class="skillbar">
+        <div class="skillbar-head"><span class="skillbar-name">Teamwork and Collaboration</span><span class="skillbar-pct"></span></div>
+        <div class="skillbar-track"><div class="skillbar-fill" data-width="89"></div></div>
+        <p class="skillbar-desc">Teamwork, Cooperation, Knowledge Sharing, Conflict-Resolution</p>
+      </div>
+  
+      <div class="skillbar">
+        <div class="skillbar-head"><span class="skillbar-name">Leadership and Mentorship</span><span class="skillbar-pct"></span></div>
+        <div class="skillbar-track"><div class="skillbar-fill" data-width="90"></div></div>
+        <p class="skillbar-desc">Leadership, Mentoring, Guidance, Responsibility, Decision-Making</p>
+      </div>
+  
+      <div class="skillbar">
+        <div class="skillbar-head"><span class="skillbar-name">Self-Management</span><span class="skillbar-pct"></span></div>
+        <div class="skillbar-track"><div class="skillbar-fill" data-width="95"></div></div>
+        <p class="skillbar-desc">Time Management, Self-Confidence, Discipline, Self-Motivation, Organization, Maturity</p>
+      </div>
+  
+      <div class="skillbar">
+        <div class="skillbar-head"><span class="skillbar-name">Professionalism</span><span class="skillbar-pct"></span></div>
+        <div class="skillbar-track"><div class="skillbar-fill" data-width="95"></div></div>
+        <p class="skillbar-desc">Dependability, Accountability, Respect, Adaptability, Integrity, Maturity</p>
+      </div>
+
+
+    <div class="inner-block">
+    <p class="kicker">tech stack</p>
+    <h4>Programming Languages</h4>
+<div class="tech-grid">
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/openjdk" alt="Java" width="20" height="20"></span><div class="tech-info"><span class="tech-name">Java</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="95"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/python" alt="Python" width="20" height="20"></span><div class="tech-info"><span class="tech-name">Python</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="90"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/javascript" alt="JavaScript" width="20" height="20"></span><div class="tech-info"><span class="tech-name">JavaScript</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="70"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/typescript" alt="TypeScript" width="20" height="20"></span><div class="tech-info"><span class="tech-name">TypeScript</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="59"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/dart" alt="Dart" width="20" height="20"></span><div class="tech-info"><span class="tech-name">Dart</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="90"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/postgresql" alt="SQL" width="20" height="20"></span><div class="tech-info"><span class="tech-name">SQL</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="85"></div></div></div></div>
+</div>
+
+<h4>Backend Development</h4>
+<div class="tech-grid">
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/springboot" alt="Spring Boot" width="20" height="20"></span><div class="tech-info"><span class="tech-name">Spring Boot</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="85"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/spring" alt="Spring MVC" width="20" height="20"></span><div class="tech-info"><span class="tech-name">Spring MVC</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="75"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/spring" alt="Spring Data JPA" width="20" height="20"></span><div class="tech-info"><span class="tech-name">Spring Data JPA</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="75"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/hibernate" alt="Hibernate" width="20" height="20"></span><div class="tech-info"><span class="tech-name">Hibernate</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="70"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/fastapi" alt="FastAPI" width="20" height="20"></span><div class="tech-info"><span class="tech-name">FastAPI</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="75"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon tech-icon-generic"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8"/></svg></span><div class="tech-info"><span class="tech-name">REST API Development</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="85"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon tech-icon-generic"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8"/></svg></span><div class="tech-info"><span class="tech-name">API Design</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="80"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon tech-icon-generic"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8"/></svg></span><div class="tech-info"><span class="tech-name">Authentication &amp; Authorization</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="75"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/jsonwebtokens" alt="JWT" width="20" height="20"></span><div class="tech-info"><span class="tech-name">JWT</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="75"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon tech-icon-generic"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8"/></svg></span><div class="tech-info"><span class="tech-name">OAuth 2.0</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="65"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon tech-icon-generic"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8"/></svg></span><div class="tech-info"><span class="tech-name">Backend Architecture</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="80"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/swagger" alt="OpenAPI/Swagger" width="20" height="20"></span><div class="tech-info"><span class="tech-name">OpenAPI/Swagger</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="70"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon tech-icon-generic"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8"/></svg></span><div class="tech-info"><span class="tech-name">Database Integration</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="85"></div></div></div></div>
+</div>
+
+<h4>Databases &amp; Data</h4>
+<div class="tech-grid">
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/postgresql" alt="PostgreSQL" width="20" height="20"></span><div class="tech-info"><span class="tech-name">PostgreSQL</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="85"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/oracle" alt="Oracle Database" width="20" height="20"></span><div class="tech-info"><span class="tech-name">Oracle Database</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="95"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/sqlite" alt="SQLite" width="20" height="20"></span><div class="tech-info"><span class="tech-name">SQLite</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="80"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon tech-icon-generic"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8"/></svg></span><div class="tech-info"><span class="tech-name">Entity-Relationship Modelling</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="85"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon tech-icon-generic"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8"/></svg></span><div class="tech-info"><span class="tech-name">Database Design</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="85"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon tech-icon-generic"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8"/></svg></span><div class="tech-info"><span class="tech-name">Database Normalisation</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="80"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon tech-icon-generic"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8"/></svg></span><div class="tech-info"><span class="tech-name">Transactions</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="75"></div></div></div></div>
+</div>
+
+<h4>Software Engineering</h4>
+<div class="tech-grid">
+  <div class="tech-item"><span class="tech-icon tech-icon-generic"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8"/></svg></span><div class="tech-info"><span class="tech-name">Object-Oriented Programming (OOP)</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="90"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon tech-icon-generic"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8"/></svg></span><div class="tech-info"><span class="tech-name">SOLID Principles</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="85"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon tech-icon-generic"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8"/></svg></span><div class="tech-info"><span class="tech-name">Design Patterns</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="85"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon tech-icon-generic"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8"/></svg></span><div class="tech-info"><span class="tech-name">Clean Architecture</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="80"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon tech-icon-generic"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8"/></svg></span><div class="tech-info"><span class="tech-name">Feature-Based Architecture</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="75"></div></div></div></div>
+</div>
+
+<h4>Frontend Development</h4>
+<div class="tech-grid">
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/html5" alt="HTML5" width="20" height="20"></span><div class="tech-info"><span class="tech-name">HTML5</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="100"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/css3" alt="CSS3" width="20" height="20"></span><div class="tech-info"><span class="tech-name">CSS3</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="75"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/javascript" alt="JavaScript" width="20" height="20"></span><div class="tech-info"><span class="tech-name">JavaScript</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="70"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/typescript" alt="TypeScript" width="20" height="20"></span><div class="tech-info"><span class="tech-name">TypeScript</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="59"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/react" alt="React" width="20" height="20"></span><div class="tech-info"><span class="tech-name">React</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="65"></div></div></div></div>
+</div>
+
+<h4>Mobile &amp; Application Development</h4>
+<div class="tech-grid">
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/flutter" alt="Flutter" width="20" height="20"></span><div class="tech-info"><span class="tech-name">Flutter</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="75"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/dart" alt="Dart" width="20" height="20"></span><div class="tech-info"><span class="tech-name">Dart</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="90"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon tech-icon-generic"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8"/></svg></span><div class="tech-info"><span class="tech-name">Riverpod</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="60"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon tech-icon-generic"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8"/></svg></span><div class="tech-info"><span class="tech-name">GoRouter</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="55"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon tech-icon-generic"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8"/></svg></span><div class="tech-info"><span class="tech-name">Dio</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="55"></div></div></div></div>
+</div>
+
+<h4>Testing &amp; Development Tools</h4>
+<div class="tech-grid">
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/junit5" alt="JUnit" width="20" height="20"></span><div class="tech-info"><span class="tech-name">JUnit</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="70"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon tech-icon-generic"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8"/></svg></span><div class="tech-info"><span class="tech-name">Mockito</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="60"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/pytest" alt="pytest" width="20" height="20"></span><div class="tech-info"><span class="tech-name">pytest</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="70"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/postman" alt="Postman" width="20" height="20"></span><div class="tech-info"><span class="tech-name">Postman</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="80"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon tech-icon-generic"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8"/></svg></span><div class="tech-info"><span class="tech-name">HTTP/API Testing</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="80"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/git" alt="Git" width="20" height="20"></span><div class="tech-info"><span class="tech-name">Git</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="85"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon gh-inline">
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="#181717"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+  </span><div class="tech-info"><span class="tech-name">GitHub</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="85"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/docker" alt="Docker" width="20" height="20"></span><div class="tech-info"><span class="tech-name">Docker</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="50"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/githubactions" alt="GitHub Actions" width="20" height="20"></span><div class="tech-info"><span class="tech-name">GitHub Actions</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="60"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/linux" alt="Linux/Bash" width="20" height="20"></span><div class="tech-info"><span class="tech-name">Linux/Bash</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="80"></div></div></div></div>
+</div>
+
+<h4>Data Analytics</h4>
+<div class="tech-grid">
+  <div class="tech-item"><span class="tech-icon"><img src="https://cdn.simpleicons.org/powerbi" alt="Power BI" width="20" height="20"></span><div class="tech-info"><span class="tech-name">Power BI</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="65"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon tech-icon-generic"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8"/></svg></span><div class="tech-info"><span class="tech-name">Data Visualisation</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="65"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon tech-icon-generic"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8"/></svg></span><div class="tech-info"><span class="tech-name">Predictive Analytics</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="55"></div></div></div></div>
+  <div class="tech-item"><span class="tech-icon tech-icon-generic"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8"/></svg></span><div class="tech-info"><span class="tech-name">Statistical Reporting</span><div class="skillbar-track sm"><div class="skillbar-fill" data-width="55"></div></div></div></div>
+</div>
+  </section>
+
+
+  <section id="s-projects">
+    <p class="kicker">selected work</p>
+    <h2>Projects</h2>
+    <div class="inner-block">
+    
+      <div class="card">
+        <span class="meta">Oracle APEX</span>
+        <h3>School assessment management platform</h3>
+        <p style="margin-bottom:0;">A platform for managing high-school assessments end-to-end, built on Oracle APEX and Oracle Database.</p>
+        
+      </div>
+      <div class="card">
+        <span class="meta">Mobile &middot; Flutter / Dart</span>
+        <h3>MySunshine &mdash; Mobile Application</h3>
+        <p>A personal mobile application concept designed around organisation, reminders and personalised everyday activities.</p>
+        <p style="margin-bottom:6px;"><strong>Planned functionality includes:</strong></p>
+        <ul class="project-features">
+          <li>User registration and authentication</li>
+          <li>Login</li>
+          <li>Splash screen</li>
+          <li>Home dashboard</li>
+          <li>Bottom navigation</li>
+          <li>Calendar</li>
+          <li>Personal planner</li>
+          <li>Water reminders</li>
+          <li>Notifications</li>
+          <li>Journal functionality</li>
+          <li>Profile management</li>
+        </ul>        
+      </div>
+      <div class="card">
+        <span class="meta">Java &middot; Swing</span>
+        <h3>Calculator App</h3>
+        <p style="margin-bottom:0;">A desktop calculator built with Java Swing, covering GUI event handling, layout management, and basic arithmetic logic.</p>
+       
+      </div>
+      <p>Major projects, documentations, case studies, screenshots, and code walkthroughs are in my full portfolio website.</p>
+    <a class="section-link open-page" href="projects.html">More projects &#8599;</a>
+  </section>
+
+  <section id="s-education">
+    <p class="kicker">education</p>
+    <h2>Education</h2>
+    <div class="inner-block" id="education-section">
+      <div class="card">
+        <span class="meta">Current</span>
+        <h3>Advanced Diploma in ICT in Applications Development</h3>
+        <p style="margin-bottom:0;">iYunivesithi Walter Sisulu <br>
+          <span style="font-weight: bold;">Course Work: </span> Software engineering principles, DSA, OOP and design patterns, information systems, database systems, and applied software development.</p>
+      </div>
+      <div class="card">
+        <span class="meta"></span>
+        <h3></h3>Diploma in ICT in Applications Development</h3>
+        <p style="margin-bottom:0;">iYunivesithi Walter Sisulu</p>
+      </div>
+    <a href="#experience-section-home" class="jump-arrow" aria-label="Jump to experience">
+      <span class="jump-label">Professional Experience</span>
+      <span class="jump-circle">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v16"/><path d="M6 14l6 6 6-6"/></svg>
+      </span>
+    </a>
+    </div>
+    <p class="kicker" id="experience-section-home" style="margin-top:34px;">professional experience</p>
+    <h2 style="font-size:1.8rem;">Experience</h2>
+    <div class="inner-block">
+      <div class="card">
+        <span class="meta">2024 - Current</span>
+        <h3>Academic Assistant (Tutor) &mdash; iYunivesithi Walter Sisulu</h3>
+        <p style="margin-bottom:0;">
+          <ul style=" display: flex;
+          flex-direction: column;
+          row-gap: 15px;">
+            <li>Technical Programming I</li>
+            <li>Technical Programming I</li>
+            <li>Development Software III and Technical Programming II</li>
+          </ul></p>
+      </div>
+    
+    </div>
+  </section>
+
+  <section id="s-awards">
+    <p class="kicker">awards &amp; achievements</p>
+    <h2>Awards &amp; achievements</h2>
+    <div class="inner-block">
+      <div class="chain">
+        <div class="chain-item">
+          <span class="chain-link"></span>
+          <div class="chain-content">
+            <h3 style="font-size:1rem;">FEBEIT Tutoring Certificate of Recognition &mdash; 2025</h3>
+            <p style="margin-bottom:0;">For successfully facilitating tutorial sessions in 2025.</p>
+          </div>
+        </div>
+        <div class="chain-item">
+          <span class="chain-link"></span>
+          <div class="chain-content">
+            <h3 style="font-size:1rem;">FEBEIT Tutoring Certificate of Recognition &mdash; 2024</h3>
+            <p style="margin-bottom:0;">For successfully facilitating tutorial sessions in 2024.</p>
+          </div>
+        </div>
+        <div class="chain-item">
+          <span class="chain-link"></span>
+          <div class="chain-content">
+            <h3 style="font-size:1rem;">Samsung Innovation Campus (Python &amp; AI) Graduate &mdash; 2024</h3>
+            <p style="margin-bottom:0;">AI and coding &amp; programming course.</p>
+          </div>
+        </div>
+        <div class="chain-item">
+          <span class="chain-link"></span>
+          <div class="chain-content">
+            <h3 style="font-size:1rem;">DIRISA Student Datathon Training &mdash; 2025</h3>
+            <p style="margin-bottom:0;">Data Analysis, Python, Statistics, Data Science, Machine Learning.</p>
+          </div>
+        </div>
+        <div class="chain-item">
+          <span class="chain-link"></span>
+          <div class="chain-content">
+            <h3 style="font-size:1rem;">FameLab (Talking Science) Certificate of Participation &mdash; 2026</h3>
+          </div>
+        </div>
+        <div class="chain-item">
+          <span class="chain-link"></span>
+          <div class="chain-content">
+            <h3 style="font-size:1rem;">Eastern Cape Automotive &amp; eMobility Hackathon Participant &mdash; 2025</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="s-hobbies">
+    <p class="kicker">hOBBIES</p>
+    <h2>What do I really enjoy?</h2>
+    <div class="inner-block">
+      <ul>
+        <li>Reading</li>
+        <li>Programming</li>
+        <li>Teaching and mentoring</li>
+        <li>Exploring technology</li>
+        <li>Watching Podcasts</li>
+        <li>Playing Sports</li>
+        <li>Sitting in front of my laptop</li>
+      </ul>
+    </div>
+    
+  </section>
+
+  <section id="s-gallery">
+    <p class="kicker">gallery</p>
+    <h2>Gallery</h2>
+    <div class="inner-block">
+    <p class="kicker">why me</p>
+    <h2 style="font-size:2rem;">Before the pictures</h2>
+    <div class="card tint-teal">
+      <p><span style="font-weight: bolder;"> I am a teacher at heart </span> &middot; <br>
+         I enjoy explaining and teaching concepts and helping others reach the point where something finally clicks.</p>
+    </div>
+    <div class="card tint-teal">
+      <p><span style="font-weight: bolder;"> I am a continuous learner </span> &middot; <br>
+        I am rarely satisfied with knowing what something is. I want to understand why and how it works.</p>
+    </div>
+  
+    <div class="card tint-pink">
+      <p><span style="font-weight: bolder;"> I care about fundamentals </span> &middot; <br>
+         I would rather build a strong foundation than rush through a subject simply to say I have learned it.
+      </p>
+    </div>
+    <div class="card tint-peach">
+      <p  style="margin-bottom:0;">I spend time thinking about what I am doing, where I am going, and what I can improve.
+      </p>
+    </div>
+    <div class="card tint-peach">
+      <p  style="margin-bottom:0;">I read books to stimulate my brain and to have fun.</p>
+    </div>
+
+
+    </div>
+    <div class="inner-block">
+    <p class="kicker">gallery</p>
+    <p  style="max-width:520px;"><span style="font-weight: bold;">New here?</span> This is a real introduction of myself!</p>
+    <div class="polaroid-grid">
+      <figure class="polaroid p1">
+        <div class="photo-box"><img src="gallery-1.jpg" alt="Simamkele Yawa"></div>
+        <figcaption><span >I started....</span></figcaption>
+      </figure>
+      <figure class="polaroid p2">
+        <div class="photo-box"><img src="images/sima.jpg" alt="Simamkele Yawa Introvert Image"></div>
+        <figcaption><span >I am actually an introvert who is pushing himself to thrive in every learning space.</span></figcaption>
+      </figure>
+      <figure class="polaroid p3">
+        <div class="photo-box"><img src="images/SimamkeleYawaPitching.jpeg" alt="Simamkele Yawa Pitching Image"></div>
+        <figcaption><span >On here! I was delivering my first public pitch/presentation in the FameLab competition, June 2026.</span></figcaption>
+      </figure>
+      <figure class="polaroid p4">
+        <div class="photo-box"><img src="images/SimaSIC.jpg" alt="Simamkele Yawa SIC"></div>
+        <figcaption><span>The true definition of when you apply yourself, results do show up - <abbr title="Samsung Innovation Campus">SIC</abbr> certification.</span></figcaption>
+      </figure>
+      <figure class="polaroid p5">
+        <div class="photo-box"><img src="images/SimaTutor.jpg" alt="Simamkele Yawa"></div>
+        <figcaption><span >Here,  I was awarded a certificate for successfully facilitating tutorial sessions - 2025.</span></figcaption>
+      </figure>
+      <figure class="polaroid p6">
+        <div class="photo-box"><img src="images/SimamkeleYawa.jpg" alt="Simamkele Yawa"></div>
+        <figcaption><span>I am Sima, nice to have you here!❤️</span></figcaption>
+      </figure>
+    </div>
+    </div>
+    
+  </section>
+
+  <section id="s-documents">
+    <p class="kicker">documents</p>
+    <h2>Documents</h2>
+    <div class="inner-block">
+      <ul class="doc-list">
+        <li><span class="doc-icon">&darr;</span> <a href="#" id="resumeDocLink">Professional CV</a></li>
+        <li><span class="doc-icon" style="background:#9aa0a8;">&darr;</span> <a href="#" >Missing documents will be uploaded soon.</a></li>
+        <li><span class="doc-icon" style="background:#9aa0a8;">&darr;</span> <a href="#" >Missing documents will be uploaded soon.</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="s-contact">
+    <p class="kicker">get in touch</p>
+    <h2>Contact</h2>
+    <div class="inner-block">
+      <div class="social-links">
+        <a class="social-link icon-only" href="https://linkedin.com/in/your-handle" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="#0A66C2"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          <span class="icon-tooltip">LinkedIn</span>
+        </a>
+        <a class="social-link icon-only" href="https://github.com/SIMAMKELE2001" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="#181717"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          <span class="icon-tooltip">GitHub</span>
+        </a>
+        <a class="social-link icon-only" href="https://youtube.com/@your-handle" target="_blank" rel="noopener" aria-label="YouTube">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="#FF0000"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          <span class="icon-tooltip">YouTube</span>
+        </a>
+        <a class="social-link icon-only" href="https://your-portfolio-url.com" target="_blank" rel="noopener" aria-label="Portfolio">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="var(--ink)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.5 6 3.5 9s-1 6.5-3.5 9c-2.5-2.5-3.5-6-3.5-9s1-6.5 3.5-9z"/></svg>
+          <span class="icon-tooltip">Portfolio</span>
+        </a>
+        <a class="social-link icon-only" href="mailto:your@email.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="var(--ink)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="M3 6l9 7 9-7"/></svg>
+          <span class="icon-tooltip">Email</span>
+        </a>
+      </div>
+      <div class="location-item">
+        <span class="location-icon">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 21s-7-6.5-7-11.5A7 7 0 0 1 19 9.5C19 14.5 12 21 12 21z"/>
+            <circle cx="12" cy="9.5" r="2.5"/>
+          </svg>
+        </span>
+        <span class="location-text >South Africa</span>
+      </div>
+      <div class="method-toggle" role="tablist" aria-label="Choose contact method">
+        <button type="button" class="method-btn active" data-method="email">Email</button>
+        <button type="button" class="method-btn" data-method="whatsapp">WhatsApp</button>
+      </div>
+      <form class="contact-form" id="contactForm" novalidate>
+        <input type="text" id="cf-name" placeholder="Your name" required>
+        <input type="email" id="cf-email" placeholder="Your email" required>
+        <textarea id="cf-msg" placeholder="Message"></textarea>
+        <button type="submit">Send Email</button>
+        <div class="form-msg" id="formMsg"></div>
+      </form>
+    </div>
+    
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <span class="footer-sima">Simamkele Yawa</span>
+      <p class="footer-tag">My Fav Quote here.</p>
+    </div>
+    <nav class="footer-links" aria-label="Footer navigation">
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="education.html">Education</a>
+      <a href="documents.html">Documents</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="footer-social">
+      <a href="https://www.linkedin.com/in/simamkele-yawa/" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="#0A66C2"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      </a>
+      <a href="https://github.com/SIMAMKELE2001" target="_blank" rel="noopener" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" width="16" height="16" class="gh-icon" fill="#181717"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+      </a>
+      <a href="https://www.youtube.com/@HayiSukaLearn" target="_blank" rel="noopener" aria-label="YouTube">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="#FF0000"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+      </a>
+    </div>
+  </div>
+  <p class="footer-line">&copy; Simamkele Yawa. All rights reserved &middot; Credit to HTML/CSS & JavaScript❤️</p></footer>
+</footer>
+
+<div id="printResume">
+  <h1>Sima</h1>
+  <p>Software Development Tutor, Walter Sisulu University &middot; Advanced Diploma in ICT Applications Development</p>
+  <h2>Profile</h2>
+  <p>Software development tutor at Walter Sisulu University, currently completing an Advanced Diploma in ICT Applications Development. Working toward software and data engineering roles.</p>
+  <h2>Education</h2>
+  <p>Advanced Diploma in ICT Applications Development &mdash; Walter Sisulu University (in progress)</p>
+  <h2>Experience</h2>
+  <p>Software Development Tutor &mdash; Walter Sisulu University (current): tutoring Java programming for fellow students.</p>
+  <h2>Skills</h2>
+  <ul>
+    <li>Java &mdash; OOP, SOLID, design patterns, concurrency, Spring Boot</li>
+    <li>Python &mdash; OOP, decorators, generators, asyncio, SQLAlchemy, FastAPI</li>
+    <li>Databases &mdash; Oracle Database, Oracle APEX, PostgreSQL</li>
+    <li>Tools &mdash; Git &amp; GitHub, Linux/Bash</li>
+  </ul>
+  <h2>Projects</h2>
+  <ul>
+    <li>Layered FastAPI + PostgreSQL CRUD service (Neon)</li>
+    <li>Oracle APEX school assessment management platform</li>
+  </ul>
+  <h2>Contact</h2>
+  <p>GitHub: github.com/SIMAMKELE2001</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
