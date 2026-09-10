@@ -1395,43 +1395,37 @@ html[data-theme="dark"] .footer-social svg.gh-icon {
 #printResume {
   display: none;
 }
-@media print {
-  body * {
-    visibility: hidden;
+@media print{
+  body *{visibility:hidden;}
+  #printResume, #printResume *{visibility:visible;}
+  #printResume{
+    display:block; position:absolute; top:0; left:0; width:100%;
+    padding:34px 40px; font-family:'Inter',sans-serif; color:#10233f; background:#fff;
   }
-  #printResume,
-  #printResume * {
-    visibility: visible;
+  #printResume .pr-header{border-bottom:2px solid #10233f; padding-bottom:12px; margin-bottom:16px;}
+  #printResume h1{font-family:'Inter',sans-serif; font-size:26px; font-weight:700; margin:0 0 4px;}
+  #printResume .pr-role{font-size:12.5px; font-weight:600; color:#3f5a99; margin:0 0 3px;}
+  #printResume .pr-affil{font-size:11px; color:#5c7196; margin:0;}
+  #printResume h2{
+    font-family:'Inter',sans-serif; font-size:13px; font-weight:700; letter-spacing:.04em;
+    text-transform:uppercase; color:#172c66; border-bottom:1px solid #cdd8ea;
+    padding-bottom:4px; margin:20px 0 8px;
   }
-  #printResume {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px;
-    font-family: "Roboto Slab", serif;
-    color: #001858;
-    background: #fff;
+  #printResume p, #printResume li{font-size:12px; line-height:1.55; margin:0 0 6px;}
+  #printResume ul{margin:0 0 4px; padding-left:18px;}
+  #printResume .pr-item{margin-bottom:10px;}
+  #printResume .pr-item-head{
+    display:flex; justify-content:space-between; align-items:baseline;
+    font-size:12.5px; margin-bottom:2px;
   }
-  #printResume h1 {
-    font-family: "Roboto Slab", serif;
-    font-size: 24px;
-    margin-bottom: 2px;
+  #printResume .pr-item-head span{font-size:11px; color:#5c7196; font-weight:600;}
+  #printResume .pr-skills{
+    display:grid; grid-template-columns:1fr 1fr; gap:8px 24px; margin-bottom:4px;
   }
-  #printResume h2 {
-    font-family: "Roboto Slab", serif;
-    font-size: 14px;
-    color: #172c66;
-    border-bottom: 1px solid #cdd8ea;
-    padding-bottom: 3px;
-    margin-top: 18px;
-  }
-  #printResume p,
-  #printResume li {
-    font-size: 12.5px;
-    line-height: 1.5;
-  }
+  #printResume .pr-skills div{font-size:12px; line-height:1.5;}
+  #printResume .pr-skills strong{display:block; font-size:11px; text-transform:uppercase; letter-spacing:.03em; color:#3f5a99; margin-bottom:2px;}
+  #printResume em{color:#5c7196;}
+  @page{margin:14mm;}
 }
 
 /* COVER */
